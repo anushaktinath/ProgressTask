@@ -7,21 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B91006391F4D9477009F7EB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91006381F4D9477009F7EB5 /* AppDelegate.swift */; };
-		B910063B1F4D9478009F7EB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B910063A1F4D9478009F7EB5 /* ViewController.swift */; };
-		B910063E1F4D9478009F7EB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B910063C1F4D9478009F7EB5 /* Main.storyboard */; };
+		B91006391F4D9477009F7EB5 /* PTAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91006381F4D9477009F7EB5 /* PTAppDelegate.swift */; };
 		B91006401F4D9478009F7EB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B910063F1F4D9478009F7EB5 /* Assets.xcassets */; };
 		B91006431F4D9478009F7EB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B91006411F4D9478009F7EB5 /* LaunchScreen.storyboard */; };
+		B91006501F4D9563009F7EB5 /* PTRequestApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B910064F1F4D9563009F7EB5 /* PTRequestApiManager.swift */; };
+		B91006521F4D9595009F7EB5 /* PTUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91006511F4D9595009F7EB5 /* PTUserData.swift */; };
+		B91006541F4D95C7009F7EB5 /* PTRSSFeedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91006531F4D95C7009F7EB5 /* PTRSSFeedData.swift */; };
+		B91006571F4DA7CE009F7EB5 /* PTLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91006551F4DA7CE009F7EB5 /* PTLoginViewController.swift */; };
+		B91006581F4DA7CE009F7EB5 /* PTLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B91006561F4DA7CE009F7EB5 /* PTLoginViewController.xib */; };
+		B93DD1E51F4EDF5E0003A676 /* PTRSSDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93DD1E41F4EDF5E0003A676 /* PTRSSDataManager.swift */; };
+		B93DD1E91F4F0AAE0003A676 /* PTRSSFeedBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93DD1E81F4F0AAE0003A676 /* PTRSSFeedBaseViewController.swift */; };
+		B93DD1EC1F4F0AD60003A676 /* PTRSSFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93DD1EA1F4F0AD60003A676 /* PTRSSFeedViewController.swift */; };
+		B93DD1ED1F4F0AD60003A676 /* PTRSSFeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B93DD1EB1F4F0AD60003A676 /* PTRSSFeedViewController.xib */; };
+		B93DD1F01F4F0AED0003A676 /* PTRSSFeedDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93DD1EE1F4F0AED0003A676 /* PTRSSFeedDetailViewController.swift */; };
+		B93DD1F11F4F0AED0003A676 /* PTRSSFeedDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B93DD1EF1F4F0AED0003A676 /* PTRSSFeedDetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B91006351F4D9477009F7EB5 /* ProgressTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgressTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B91006381F4D9477009F7EB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B910063A1F4D9478009F7EB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B910063D1F4D9478009F7EB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B91006381F4D9477009F7EB5 /* PTAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTAppDelegate.swift; sourceTree = "<group>"; };
 		B910063F1F4D9478009F7EB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B91006421F4D9478009F7EB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B91006441F4D9478009F7EB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B910064F1F4D9563009F7EB5 /* PTRequestApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PTRequestApiManager.swift; sourceTree = "<group>"; };
+		B91006511F4D9595009F7EB5 /* PTUserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PTUserData.swift; sourceTree = "<group>"; };
+		B91006531F4D95C7009F7EB5 /* PTRSSFeedData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PTRSSFeedData.swift; sourceTree = "<group>"; };
+		B91006551F4DA7CE009F7EB5 /* PTLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PTLoginViewController.swift; sourceTree = "<group>"; };
+		B91006561F4DA7CE009F7EB5 /* PTLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PTLoginViewController.xib; sourceTree = "<group>"; };
+		B93DD1E41F4EDF5E0003A676 /* PTRSSDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PTRSSDataManager.swift; sourceTree = "<group>"; };
+		B93DD1E81F4F0AAE0003A676 /* PTRSSFeedBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PTRSSFeedBaseViewController.swift; sourceTree = "<group>"; };
+		B93DD1EA1F4F0AD60003A676 /* PTRSSFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PTRSSFeedViewController.swift; sourceTree = "<group>"; };
+		B93DD1EB1F4F0AD60003A676 /* PTRSSFeedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PTRSSFeedViewController.xib; sourceTree = "<group>"; };
+		B93DD1EE1F4F0AED0003A676 /* PTRSSFeedDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PTRSSFeedDetailViewController.swift; sourceTree = "<group>"; };
+		B93DD1EF1F4F0AED0003A676 /* PTRSSFeedDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PTRSSFeedDetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +72,63 @@
 		B91006371F4D9477009F7EB5 /* ProgressTask */ = {
 			isa = PBXGroup;
 			children = (
-				B91006381F4D9477009F7EB5 /* AppDelegate.swift */,
-				B910063A1F4D9478009F7EB5 /* ViewController.swift */,
-				B910063C1F4D9478009F7EB5 /* Main.storyboard */,
+				B91006381F4D9477009F7EB5 /* PTAppDelegate.swift */,
+				B910064E1F4D94E7009F7EB5 /* Managers */,
+				B910064A1F4D94CC009F7EB5 /* CustomViews */,
+				B910064B1F4D94CC009F7EB5 /* Models */,
+				B910064C1F4D94CC009F7EB5 /* Utils */,
+				B910064D1F4D94CC009F7EB5 /* ViewControllers */,
 				B910063F1F4D9478009F7EB5 /* Assets.xcassets */,
 				B91006411F4D9478009F7EB5 /* LaunchScreen.storyboard */,
 				B91006441F4D9478009F7EB5 /* Info.plist */,
 			);
 			path = ProgressTask;
+			sourceTree = "<group>";
+		};
+		B910064A1F4D94CC009F7EB5 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		B910064B1F4D94CC009F7EB5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B91006511F4D9595009F7EB5 /* PTUserData.swift */,
+				B91006531F4D95C7009F7EB5 /* PTRSSFeedData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B910064C1F4D94CC009F7EB5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B910064D1F4D94CC009F7EB5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B91006551F4DA7CE009F7EB5 /* PTLoginViewController.swift */,
+				B91006561F4DA7CE009F7EB5 /* PTLoginViewController.xib */,
+				B93DD1E81F4F0AAE0003A676 /* PTRSSFeedBaseViewController.swift */,
+				B93DD1EA1F4F0AD60003A676 /* PTRSSFeedViewController.swift */,
+				B93DD1EB1F4F0AD60003A676 /* PTRSSFeedViewController.xib */,
+				B93DD1EE1F4F0AED0003A676 /* PTRSSFeedDetailViewController.swift */,
+				B93DD1EF1F4F0AED0003A676 /* PTRSSFeedDetailViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B910064E1F4D94E7009F7EB5 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				B910064F1F4D9563009F7EB5 /* PTRequestApiManager.swift */,
+				B93DD1E41F4EDF5E0003A676 /* PTRSSDataManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +192,9 @@
 			files = (
 				B91006431F4D9478009F7EB5 /* LaunchScreen.storyboard in Resources */,
 				B91006401F4D9478009F7EB5 /* Assets.xcassets in Resources */,
-				B910063E1F4D9478009F7EB5 /* Main.storyboard in Resources */,
+				B91006581F4DA7CE009F7EB5 /* PTLoginViewController.xib in Resources */,
+				B93DD1ED1F4F0AD60003A676 /* PTRSSFeedViewController.xib in Resources */,
+				B93DD1F11F4F0AED0003A676 /* PTRSSFeedDetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,22 +205,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B910063B1F4D9478009F7EB5 /* ViewController.swift in Sources */,
-				B91006391F4D9477009F7EB5 /* AppDelegate.swift in Sources */,
+				B91006571F4DA7CE009F7EB5 /* PTLoginViewController.swift in Sources */,
+				B93DD1F01F4F0AED0003A676 /* PTRSSFeedDetailViewController.swift in Sources */,
+				B91006541F4D95C7009F7EB5 /* PTRSSFeedData.swift in Sources */,
+				B91006501F4D9563009F7EB5 /* PTRequestApiManager.swift in Sources */,
+				B91006391F4D9477009F7EB5 /* PTAppDelegate.swift in Sources */,
+				B93DD1E51F4EDF5E0003A676 /* PTRSSDataManager.swift in Sources */,
+				B91006521F4D9595009F7EB5 /* PTUserData.swift in Sources */,
+				B93DD1E91F4F0AAE0003A676 /* PTRSSFeedBaseViewController.swift in Sources */,
+				B93DD1EC1F4F0AD60003A676 /* PTRSSFeedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B910063C1F4D9478009F7EB5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B910063D1F4D9478009F7EB5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B91006411F4D9478009F7EB5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -301,6 +369,7 @@
 				B91006491F4D9478009F7EB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
